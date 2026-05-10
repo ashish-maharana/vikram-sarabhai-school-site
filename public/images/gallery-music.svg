@@ -1,0 +1,7 @@
+﻿<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#0B1120"/>
+  <circle cx="260" cy="220" r="180" fill="#06B6D4" fill-opacity="0.25"/>
+  <circle cx="920" cy="500" r="220" fill="#2563EB" fill-opacity="0.25"/>
+  <rect x="160" y="160" width="880" height="440" rx="36" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.5"/>
+  <text x="220" y="380" fill="#E2E8F0" font-family="Arial" font-size="58" font-weight="700">Music Studio Moments</text>
+</svg>

@@ -1,0 +1,6 @@
+﻿<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#0A0F1F"/>
+  <rect x="140" y="140" width="920" height="480" rx="34" fill="#111827" stroke="#38BDF8" stroke-opacity="0.45"/>
+  <path d="M170 500C350 420 450 540 620 470C790 400 860 500 1030 430" stroke="#22D3EE" stroke-width="8"/>
+  <text x="220" y="360" fill="#E2E8F0" font-family="Arial" font-size="58" font-weight="700">Celebration Highlights</text>
+</svg>

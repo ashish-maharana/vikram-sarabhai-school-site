@@ -1,0 +1,6 @@
+﻿<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#020617"/>
+  <circle cx="600" cy="380" r="250" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="3"/>
+  <circle cx="600" cy="380" r="120" fill="#0EA5E9" fill-opacity="0.25"/>
+  <text x="315" y="675" fill="#E2E8F0" font-family="Arial" font-size="58" font-weight="700">Mindful Wellness</text>
+</svg>

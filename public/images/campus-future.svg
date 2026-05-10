@@ -1,0 +1,17 @@
+﻿<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#020617"/>
+  <rect x="40" y="40" width="1120" height="680" rx="28" fill="url(#paint0_linear)" fill-opacity="0.42"/>
+  <g opacity="0.35" stroke="#38BDF8">
+    <path d="M80 100H1120"/><path d="M80 170H1120"/><path d="M80 240H1120"/><path d="M80 310H1120"/><path d="M80 380H1120"/><path d="M80 450H1120"/><path d="M80 520H1120"/><path d="M80 590H1120"/><path d="M80 660H1120"/>
+    <path d="M120 80V680"/><path d="M220 80V680"/><path d="M320 80V680"/><path d="M420 80V680"/><path d="M520 80V680"/><path d="M620 80V680"/><path d="M720 80V680"/><path d="M820 80V680"/><path d="M920 80V680"/><path d="M1020 80V680"/>
+  </g>
+  <circle cx="1020" cy="160" r="130" fill="#22D3EE" fill-opacity="0.28"/>
+  <circle cx="240" cy="580" r="170" fill="#2563EB" fill-opacity="0.26"/>
+  <text x="100" y="650" fill="#E2E8F0" font-family="Arial" font-size="44" font-weight="700">Explorer &amp; V.B.B. Campus Experience</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="100" y1="80" x2="1070" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+</svg>
