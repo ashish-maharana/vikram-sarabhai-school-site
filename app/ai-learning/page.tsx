@@ -23,7 +23,7 @@ export default function AiLearningPage() {
           <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{aiPrograms.map((item) => <ProgramCard key={item.title} {...item} variant="vikram-ref" />)}</div>
         </div>
         <article className="glass-panel p-6">
-          <h3 className="text-2xl font-semibold text-[#151515]">Skills Built</h3>
+          <h3 className="text-2xl font-semibold text-[#ffffff]">Skills Built</h3>
           <div className="mt-4 flex flex-wrap gap-2">{tomorrowSkills.map((skill, i) => <span key={skill} className={`sticker px-3 py-1.5 text-sm ${i % 2 === 0 ? "bg-[#ffd45a]" : "bg-[#42c7b8] text-white"}`}>{skill}</span>)}</div>
         </article>
       </section>

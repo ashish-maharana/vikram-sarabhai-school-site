@@ -18,7 +18,7 @@ function GalleryGrid({ items }: { items: GalleryItem[] }) {
         <article key={`${item.title}-${item.src}`} className="overflow-hidden rounded-[1.5rem] border-2 border-white bg-white shadow-[0_18px_42px_rgba(21,17,43,0.08)]">
           <Image src={item.src} alt={item.alt} width={960} height={640} className="h-56 w-full object-cover" />
           <div className="p-5">
-            <h3 className="text-lg font-semibold text-[#15112b]">{item.title}</h3>
+            <h3 className="text-lg font-semibold text-[#35557a]">{item.title}</h3>
           </div>
         </article>
       ))}
@@ -43,7 +43,9 @@ export function ActivitiesGalleryTabs({ campusItems, schoolTripItems }: Activiti
           aria-controls={campusPanelId}
           onClick={() => setActiveTab("campus")}
           className={`rounded-full px-4 py-2 text-sm font-extrabold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6d1b7b] ${
-            activeTab === "campus" ? "bg-[#ffd84d] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
+            activeTab === "campus"
+              ? "bg-[#ffd84d] text-[#35557a]"
+              : "border border-[#d9e5f3] bg-white text-[#35557a] hover:bg-[#fff3dc]"
           }`}
         >
           Campus Life
@@ -56,7 +58,9 @@ export function ActivitiesGalleryTabs({ campusItems, schoolTripItems }: Activiti
           aria-controls={tripsPanelId}
           onClick={() => setActiveTab("school-trips")}
           className={`rounded-full px-4 py-2 text-sm font-extrabold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6d1b7b] ${
-            activeTab === "school-trips" ? "bg-[#2ee881] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
+            activeTab === "school-trips"
+              ? "bg-[#2ee881] text-[#35557a]"
+              : "border border-[#d9e5f3] bg-white text-[#35557a] hover:bg-[#fff3dc]"
           }`}
         >
           School Trips

@@ -43,7 +43,9 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
           aria-controls={managementPanelId}
           onClick={() => setActiveTab("management")}
           className={`rounded-full px-4 py-2 text-sm font-extrabold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6d1b7b] ${
-            activeTab === "management" ? "bg-[#ffd84d] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
+            activeTab === "management"
+              ? "bg-[#ffd84d] text-[#35557a]"
+              : "border border-[#d9e5f3] bg-white text-[#35557a] hover:bg-[#fff3dc]"
           }`}
         >
           Management
@@ -56,7 +58,9 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
           aria-controls={facultyPanelId}
           onClick={() => setActiveTab("faculty")}
           className={`rounded-full px-4 py-2 text-sm font-extrabold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6d1b7b] ${
-            activeTab === "faculty" ? "bg-[#2ee881] text-[#15112b]" : "bg-white text-[#5b5570] hover:bg-[#fff3dc]"
+            activeTab === "faculty"
+              ? "bg-[#2ee881] text-[#35557a]"
+              : "border border-[#d9e5f3] bg-white text-[#35557a] hover:bg-[#fff3dc]"
           }`}
         >
           Faculty
@@ -76,14 +80,14 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
             <p className="sticker bg-[#ffd84d]">
               {management.chairmanMessage.title}
             </p>
-            <p className="mt-4 text-sm font-medium leading-7 text-[#5b5570] sm:text-base">
+            <p className="mt-4 text-sm font-medium leading-7 text-[#ffffff] sm:text-base">
               {management.chairmanMessage.intro}
             </p>
-            <blockquote className="mt-6 border-l-4 border-[#f45fa2] pl-5 text-lg font-semibold italic leading-8 text-[#15112b]">
+            <blockquote className="mt-6 border-l-4 border-[#f45fa2] pl-5 text-lg font-semibold italic leading-8 text-[#35557a]">
               &ldquo;{management.chairmanMessage.quote}&rdquo;
             </blockquote>
             <p className="mt-3 text-sm font-extrabold text-[#6d1b7b]">{management.chairmanMessage.quoteSource}</p>
-            <div className="mt-6 space-y-4 text-sm font-medium leading-7 text-[#5b5570] sm:text-base">
+            <div className="mt-6 space-y-4 text-sm font-medium leading-7 text-[#ffffff] sm:text-base">
               {management.chairmanMessage.paragraphs.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
@@ -97,7 +101,7 @@ export function AboutPeopleTabs({ management, faculty }: AboutPeopleTabsProps) {
           aria-labelledby={`${tabsBaseId}-faculty-tab`}
           className="mt-6"
         >
-          <p className="text-sm font-medium leading-7 text-[#5b5570] sm:text-base">{faculty.quickIntro}</p>
+          <p className="text-sm font-medium leading-7 text-[#ffffff] sm:text-base">{faculty.quickIntro}</p>
 
           <PeopleCardsGrid members={faculty.members} imageClassName={unifiedPortraitImageClass} />
         </div>

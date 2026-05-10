@@ -16,7 +16,7 @@ export function CTASection({ title, description, primary, secondary, variant = "
         <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl">
             <h2 className="text-4xl font-extrabold leading-[1.02] text-[#151515] sm:text-5xl">{title}</h2>
-            <p className="mt-4 text-sm font-semibold leading-7 text-[#5d5a54] sm:text-base">{description}</p>
+            <p className="mt-4 text-sm font-semibold leading-7 text-[#35557a] sm:text-base">{description}</p>
           </div>
           <div className="flex flex-wrap gap-3">
             <Link className="btn-primary" href={primary.href}>{primary.label}</Link>

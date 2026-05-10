@@ -48,8 +48,8 @@ function Counter({ item }: { item: StatItem }) {
         {count}
         {item.suffix}
       </p>
-      <p className="relative z-[1] mt-2 text-lg font-extrabold text-[#15112b]">{item.label}</p>
-      <p className="relative z-[1] mt-3 text-sm font-medium leading-6 text-[#5b5570]">{item.description}</p>
+      <p className="relative z-[1] mt-2 text-lg font-extrabold text-[#35557a]">{item.label}</p>
+      <p className="relative z-[1] mt-3 text-sm font-medium leading-6 text-[#ffffff]">{item.description}</p>
     </div>
   );
 }

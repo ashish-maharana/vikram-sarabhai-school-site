@@ -20,10 +20,10 @@ export function FaqAccordion({ items }: { items: Item[] }) {
               aria-expanded={open}
               onClick={() => setOpenIndex(open ? null : idx)}
             >
-              <span className="font-extrabold text-[#15112b]">{item.question}</span>
+              <span className="font-extrabold text-[#35557a]">{item.question}</span>
               <ChevronDown className={`h-5 w-5 shrink-0 text-[#6d1b7b] transition ${open ? "rotate-180" : ""}`} />
             </button>
-            {open ? <p className="px-5 pb-5 font-medium leading-7 text-[#5b5570]">{item.answer}</p> : null}
+            {open ? <p className="px-5 pb-5 font-medium leading-7 text-[#000000]">{item.answer}</p> : null}
           </article>
         );
       })}

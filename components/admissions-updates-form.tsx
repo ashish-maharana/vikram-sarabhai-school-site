@@ -15,7 +15,7 @@ export function AdmissionsUpdatesForm({ content }: { content: AdmissionsUpdatesC
                 type={field.type}
                 name={field.name}
                 placeholder={field.placeholder}
-                className="w-full rounded-2xl border-2 border-white/40 bg-white/95 px-4 py-3 text-sm font-bold text-[#15112b] outline-none transition focus:border-white focus:ring-2 focus:ring-white/70"
+                className="w-full rounded-2xl border-2 border-white/40 bg-white/95 px-4 py-3 text-sm font-bold text-[#35557a] outline-none transition focus:border-white focus:ring-2 focus:ring-white/70"
               />
             </label>
           ))}
@@ -25,12 +25,12 @@ export function AdmissionsUpdatesForm({ content }: { content: AdmissionsUpdatesC
               name={content.message.name}
               rows={4}
               placeholder={content.message.placeholder}
-              className="w-full rounded-2xl border-2 border-white/40 bg-white/95 px-4 py-3 text-sm font-bold text-[#15112b] outline-none transition focus:border-white focus:ring-2 focus:ring-white/70"
+              className="w-full rounded-2xl border-2 border-white/40 bg-white/95 px-4 py-3 text-sm font-bold text-[#35557a] outline-none transition focus:border-white focus:ring-2 focus:ring-white/70"
             />
           </label>
           <button
             type="submit"
-            className="btn-primary !bg-white !px-5 !py-3 !text-[#15112b] hover:!bg-[#ffd84d] focus-visible:!ring-white focus-visible:!ring-offset-transparent"
+            className="btn-primary !bg-white !px-5 !py-3 !text-[#35557a] hover:!bg-[#ffd84d] focus-visible:!ring-white focus-visible:!ring-offset-transparent"
           >
             {content.submitLabel}
           </button>

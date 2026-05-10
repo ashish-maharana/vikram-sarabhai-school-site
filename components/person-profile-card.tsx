@@ -26,9 +26,9 @@ export function PersonProfileCard({ person, compact = false, showImage = true, i
         </div>
       ) : null}
 
-      <h3 className={`${showImage ? "mt-5" : "mt-1"} text-2xl font-semibold leading-tight text-[#15112b]`}>{person.name}</h3>
+      <h3 className={`${showImage ? "mt-5" : "mt-1"} text-2xl font-semibold leading-tight text-[#35557a]`}>{person.name}</h3>
       <p className="mt-1 text-sm font-extrabold text-[#6d1b7b]">{person.role}</p>
-      <p className="mt-3 text-sm font-medium leading-7 text-[#5b5570]">{person.bio}</p>
+      <p className="mt-3 text-sm font-medium leading-7 text-[#ffffff]">{person.bio}</p>
 
       {person.tags?.length ? (
         <div className="mt-4 flex flex-wrap gap-2">

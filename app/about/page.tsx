@@ -19,8 +19,8 @@ export default function AboutPage() {
       <section className="section-wrap p-1"><PageHero content={aboutHero} variant="vikram-ref" /></section>
 
       <section className="section-wrap grid gap-6 lg:grid-cols-[1fr_1fr]">
-        <article className="soft-wave p-7"><p className="sticker bg-[#ffd45a]">Mission</p><p className="mt-4 text-lg font-medium leading-8 text-[#5d5a54]">{missionVision.mission}</p></article>
-        <article className="soft-wave p-7"><p className="sticker bg-[#42c7b8] text-white">Vision</p><p className="mt-4 text-lg font-medium leading-8 text-[#5d5a54]">{missionVision.vision}</p></article>
+        <article className="soft-wave p-7"><p className="sticker bg-[#ffd45a]">Mission</p><p className="mt-4 text-lg font-medium leading-8 text-[#ffffff]">{missionVision.mission}</p></article>
+        <article className="soft-wave p-7"><p className="sticker bg-[#42c7b8] text-white">Vision</p><p className="mt-4 text-lg font-medium leading-8 text-[#ffffff]">{missionVision.vision}</p></article>
       </section>
 
       <section className="section-wrap grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
@@ -29,8 +29,8 @@ export default function AboutPage() {
           <div className="mt-7"><Timeline items={philosophyTimeline} variant="vikram-ref" /></div>
         </div>
         <article className="glass-panel p-6">
-          <h3 className="text-2xl font-semibold text-[#151515]">Editorial Note</h3>
-          <p className="mt-4 text-sm font-medium leading-7 text-[#5d5a54]">The school identity presented here follows a safe factual baseline. Leadership names, establishment year, and specific institutional milestones should be verified and finalized by the school office before public launch.</p>
+          <h3 className="text-2xl font-semibold text-[#ffffff]">Editorial Note</h3>
+          <p className="mt-4 text-sm font-medium leading-7 text-[#ffffff]">The school identity presented here follows a safe factual baseline. Leadership names, establishment year, and specific institutional milestones should be verified and finalized by the school office before public launch.</p>
           <div className="mt-6 h-1 w-28 bg-[#ffd45a]" />
         </article>
       </section>

@@ -15,14 +15,14 @@ export function GlowCard({ title, description, icon, tag, variant = "card", them
 
   if (isRef && variant === "flat") {
     return (
-      <article className="flex gap-4 rounded-2xl bg-white p-4 shadow-[0_12px_28px_rgba(49,33,19,0.06)]">
-        <div className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#fff1df] text-[#f36b2a]">
+      <article className="flex gap-4 rounded-2xl bg-white p-4 shadow-[0_12px_28px_rgba(49,33,19,0.08)]">
+        <div className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#fff1df] text-[#0f6877]">
           <IconGlyph name={icon} />
         </div>
         <div>
-          {tag ? <span className="sticker mb-3 bg-[#ffd45a]">{tag}</span> : null}
+          {tag ? <span className="sticker mb-3 bg-[#ffd45a] text-[#051228]">{tag}</span> : null}
           <h3 className="text-lg font-extrabold text-[#151515]">{title}</h3>
-          <p className="mt-2 text-sm font-semibold leading-6 text-[#5d5a54]">{description}</p>
+          <p className="mt-2 text-sm font-semibold leading-6 text-[#35557a]">{description}</p>
         </div>
       </article>
     );
@@ -38,7 +38,7 @@ export function GlowCard({ title, description, icon, tag, variant = "card", them
             <IconGlyph name={icon} />
           </div>
           <h3 className="mt-4 text-xl font-extrabold leading-tight text-[#151515]">{title}</h3>
-          <p className="mt-3 text-sm font-semibold leading-7 text-[#5d5a54]">{description}</p>
+          <p className="mt-3 text-sm font-semibold leading-7 text-[#35557a]">{description}</p>
         </div>
       </article>
     );
@@ -52,8 +52,8 @@ export function GlowCard({ title, description, icon, tag, variant = "card", them
         </div>
         <div>
           {tag ? <span className={`sticker mb-3 ${isVikram ? "bg-[#c89b3c]" : "bg-[#f45fa2] text-white"}`}>{tag}</span> : null}
-          <h3 className={`text-xl font-semibold ${isVikram ? "text-[#1e2430]" : "text-[#15112b]"}`}>{title}</h3>
-          <p className={`mt-3 font-medium leading-7 ${isVikram ? "text-[#425062]" : "text-[#5b5570]"}`}>{description}</p>
+          <h3 className={`text-xl font-semibold ${isVikram ? "text-[#1e2430]" : "text-[#35557a]"}`}>{title}</h3>
+          <p className={`mt-3 font-medium leading-7 ${isVikram ? "text-[#425062]" : "text-[#ffffff]"}`}>{description}</p>
         </div>
       </article>
     );
@@ -67,8 +67,8 @@ export function GlowCard({ title, description, icon, tag, variant = "card", them
         <div className={`mt-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl ring-2 ring-white ${isVikram ? "bg-[#0f4c5c]/12 text-[#0f4c5c]" : "bg-[#22c7e8]/18 text-[#6d1b7b]"}`}>
           <IconGlyph name={icon} />
         </div>
-        <h3 className={`mt-4 text-xl font-semibold ${isVikram ? "text-[#1e2430]" : "text-[#15112b]"}`}>{title}</h3>
-        <p className={`mt-3 font-medium leading-7 ${isVikram ? "text-[#425062]" : "text-[#5b5570]"}`}>{description}</p>
+        <h3 className={`mt-4 text-xl font-semibold ${isVikram ? "text-[#1e2430]" : "text-[#35557a]"}`}>{title}</h3>
+        <p className={`mt-3 font-medium leading-7 ${isVikram ? "text-[#425062]" : "text-[#ffffff]"}`}>{description}</p>
       </div>
     </article>
   );

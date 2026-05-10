@@ -29,10 +29,10 @@ export default function ActivitiesPage() {
           <div className="mt-6 grid gap-4">{lifeSkills.map((item) => <GlowCard key={item.title} {...item} theme="vikram-ref" />)}</div>
         </article>
         <article className="glass-panel p-6">
-          <h3 className="text-2xl font-semibold text-[#151515]">Event Highlights</h3>
+          <h3 className="text-2xl font-semibold text-[#ffffff]">Event Highlights</h3>
           <div className="mt-5 space-y-3">
             {["Assembly participation and school routines", "Sports and movement-based engagement", "Cultural stage opportunities", "Recognition and celebration moments"].map((item) => (
-              <p key={item} className="rounded-lg border border-[#0f6877]/12 bg-white p-3 text-sm font-semibold text-[#5d5a54]">{item}</p>
+              <p key={item} className="rounded-lg border border-[#0f6877]/12 bg-white p-3 text-sm font-semibold text-[#000000]">{item}</p>
             ))}
           </div>
         </article>

@@ -7,15 +7,15 @@ type HeroVariant = "default" | "vikram" | "vikram-ref";
 export function PageHero({ content, variant = "default" }: { content: HeroContent; variant?: HeroVariant }) {
   if (variant === "vikram-ref") {
     return (
-      <section className="relative overflow-hidden rounded-[34px] border border-[#e49a6b]/70 bg-[#fff1df] px-6 py-9 shadow-[0_24px_70px_rgba(49,33,19,0.10)] sm:px-10 lg:px-12">
+      <section className="relative overflow-hidden rounded-[34px] border border-[#e49a6b]/70 bg-[#fff1df] px-6 py-9 shadow-[0_24px_70px_rgba(49,33,19,0.1)] sm:px-10 lg:px-12">
         <div className="pointer-events-none absolute inset-3 rounded-[28px] border border-[#d97842]/35 bg-white/25" />
         <div className="relative grid gap-10 lg:grid-cols-[0.98fr_1.02fr] lg:items-center">
           <div className="max-w-2xl">
-            <p className="sticker bg-[#ffd45a] text-[#171717]">{content.eyebrow}</p>
+            <p className="sticker bg-[#ffd45a] text-[#051228]">{content.eyebrow}</p>
             <h1 className="mt-5 text-5xl font-extrabold leading-[0.98] text-[#151515] sm:text-7xl">
               {content.title}
             </h1>
-            <p className="mt-5 max-w-xl text-base font-semibold leading-8 text-[#5d5a54] sm:text-lg">
+            <p className="mt-5 max-w-xl text-base font-semibold leading-8 text-[#4f5f74] sm:text-lg">
               {content.description}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -40,7 +40,7 @@ export function PageHero({ content, variant = "default" }: { content: HeroConten
                   width={820}
                   height={610}
                   priority
-                  className="aspect-[1.18/1] w-full object-cover"
+                  className="aspect-[1.18/1] w-full object-cover object-top"
                 />
               </div>
             </div>
@@ -81,7 +81,7 @@ export function PageHero({ content, variant = "default" }: { content: HeroConten
       <div className="hero-grid-overlay pointer-events-none absolute inset-0" />
       <div className="relative grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
         <div className="max-w-3xl">
-          <p className="sticker bg-[#ffd84d] text-[#15112b]">{content.eyebrow}</p>
+          <p className="sticker bg-[#ffd84d] text-[#35557a]">{content.eyebrow}</p>
           <h1 className="mt-5 max-w-4xl text-4xl font-semibold leading-[1.04] text-white sm:text-6xl">{content.title}</h1>
           <p className="mt-5 max-w-2xl text-base font-semibold leading-8 text-white/88 sm:text-lg">{content.description}</p>
         </div>

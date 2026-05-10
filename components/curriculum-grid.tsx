@@ -26,13 +26,13 @@ export function CurriculumGrid({ items }: { items: CurriculumCardItem[] }) {
             className="aspect-[4/3] w-full object-cover object-center transition duration-500 group-hover:scale-[1.04]"
           />
           <div className="p-5">
-            <h3 className="text-xl font-semibold text-[#15112b]">{item.title}</h3>
-            <p className="mt-3 text-sm font-medium leading-6 text-[#5b5570]">{item.description}</p>
+            <h3 className="text-xl font-semibold text-[#35557a]">{item.title}</h3>
+            <p className="mt-3 text-sm font-medium leading-6 text-[#ffffff]">{item.description}</p>
             <div className="mt-4 flex flex-wrap gap-2 opacity-90 transition group-hover:opacity-100">
               {(skillTags[item.title] ?? ["Future Ready", "Creative", "Focused"]).map((tag) => (
                 <span
                   key={tag}
-                  className={`inline-flex -translate-y-1 rounded-full px-2.5 py-1 text-[11px] font-extrabold text-[#15112b] transition duration-300 group-hover:translate-y-0 ${
+                  className={`inline-flex -translate-y-1 rounded-full px-2.5 py-1 text-[11px] font-extrabold text-[#35557a] transition duration-300 group-hover:translate-y-0 ${
                     index % 3 === 0 ? "bg-[#ffd84d]" : index % 3 === 1 ? "bg-[#2ee881]" : "bg-[#22c7e8]"
                   }`}
                 >

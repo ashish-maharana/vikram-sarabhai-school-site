@@ -9,11 +9,11 @@ export const site: SiteConfig = {
   address: "Vikram Sarabhai School, Astan area, Bardoli Taluka, Surat District, Gujarat - 394601",
   brand: {
     palette: {
-      bg: "#FFF5E8",
-      ink: "#171717",
-      primary: "#0F6877",
-      accent: "#F36B2A",
-      support: "#42C7B8",
+      bg: "#061224",
+      ink: "#E9F3FF",
+      primary: "#1B8CFF",
+      accent: "#FF8A34",
+      support: "#52D6C5",
       highlight: "#FFD45A",
     },
     motif: "default",

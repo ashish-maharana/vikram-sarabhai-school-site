@@ -18,19 +18,19 @@ function SocialIcon({ platform }: { platform: SocialPlatform }) {
 
 export function Footer() {
   return (
-    <footer className="mt-20 bg-[#fff1df]">
+    <footer className="mt-20 border-t border-[#8fc4ff]/15 bg-[#081729]">
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <section>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 bg-white p-2 rounded-md shadow-[0_8px_18px_rgba(3,12,28,0.25)]">
             <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={100} height={100} className="rounded-full object-cover" />
-            <h2 className="text-2xl font-extrabold leading-tight text-[#f36b2a]">{site.name}</h2>
+            <h2 className="text-3xl font-extrabold leading-tight text-[#ffb26b]">{site.name}</h2>
           </div>
-          <p className="mt-4 text-sm font-semibold leading-7 text-[#5d5a54]">{site.address}</p>
-          <p className="mt-2 text-sm font-semibold text-[#5d5a54]">Email: {site.email}</p>
-          <div className="mt-2 text-sm font-semibold text-[#5d5a54]">{site.phones.map((phone) => <p key={phone}>{phone}</p>)}</div>
+          <p className="mt-4 text-sm font-semibold leading-7 text-[#adc5df]">{site.address}</p>
+          <p className="mt-2 text-sm font-semibold text-[#adc5df]">Email: {site.email}</p>
+          <div className="mt-2 text-sm font-semibold text-[#adc5df]">{site.phones.map((phone) => <p key={phone}>{phone}</p>)}</div>
           <div className="mt-6 flex gap-3">
             {socialLinks.map((item) => (
-              <a key={item.platform} href={item.url} target="_blank" rel="noopener noreferrer" aria-label={item.ariaLabel} className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#5d5a54] shadow-[0_8px_18px_rgba(49,33,19,0.08)] transition hover:bg-[#0f6877] hover:text-white">
+              <a key={item.platform} href={item.url} target="_blank" rel="noopener noreferrer" aria-label={item.ariaLabel} className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#132949] text-[#c9def7] shadow-[0_8px_18px_rgba(3,12,28,0.25)] transition hover:bg-[#1b8cff] hover:text-white">
                 <SocialIcon platform={item.platform} />
               </a>
             ))}
@@ -38,22 +38,22 @@ export function Footer() {
         </section>
 
         <section>
-          <h3 className="sticker bg-[#ffd45a]">Quick Links</h3>
-          <ul className="mt-4 space-y-2">{footerLinks.quick.map((item) => <li key={item.href}><Link className="text-sm font-bold text-[#5d5a54] hover:text-[#0f6877]" href={item.href}>{item.label}</Link></li>)}</ul>
+          <h3 className="sticker bg-[#ffd45a] text-[#051228]">Quick Links</h3>
+          <ul className="mt-4 space-y-2">{footerLinks.quick.map((item) => <li key={item.href}><Link className="text-sm font-bold text-[#adc5df] hover:text-[#67d0ff]" href={item.href}>{item.label}</Link></li>)}</ul>
         </section>
 
         <section>
-          <h3 className="sticker bg-[#42c7b8] text-white">Admissions</h3>
-          <ul className="mt-4 space-y-2">{footerLinks.admissions.map((item) => <li key={item.href}><Link className="text-sm font-bold text-[#5d5a54] hover:text-[#0f6877]" href={item.href}>{item.label}</Link></li>)}</ul>
+          <h3 className="sticker bg-[#52d6c5] text-[#051228]">Admissions</h3>
+          <ul className="mt-4 space-y-2">{footerLinks.admissions.map((item) => <li key={item.href}><Link className="text-sm font-bold text-[#adc5df] hover:text-[#67d0ff]" href={item.href}>{item.label}</Link></li>)}</ul>
         </section>
 
-        <section className="rounded-[28px] bg-[#0f6877] p-6 text-white shadow-[0_18px_44px_rgba(15,104,119,0.18)]">
+        <section className="rounded-[28px] border border-[#8fc4ff]/25 bg-[#10284a] p-6 text-white shadow-[0_18px_44px_rgba(3,12,28,0.3)]">
           <h3 className="text-2xl font-extrabold text-white">Admissions Open</h3>
-          <p className="mt-3 text-sm font-semibold leading-7 text-white/88">Begin your child's primary learning journey at Vikram Sarabhai School, Bardoli.</p>
+          <p className="mt-3 text-sm font-semibold leading-7 text-[#d1e5fb]">Begin your child's primary learning journey at Vikram Sarabhai School, Bardoli.</p>
           <Link href="/admissions" className="btn-primary mt-4 !px-4 !py-2">Apply Now</Link>
         </section>
       </div>
-      <div className="border-t border-[#f36b2a]/10 py-4 text-center text-xs font-bold text-[#5d5a54]">© {new Date().getFullYear()} {site.shortName}. All rights reserved.</div>
+      <div className="border-t border-[#8fc4ff]/15 py-4 text-center text-xs font-bold text-[#9eb8d5]">© {new Date().getFullYear()} {site.shortName}. All rights reserved.</div>
     </footer>
   );
 }

@@ -24,10 +24,10 @@ export default function AcademicsPage() {
           <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{academicPrograms.map((program) => <ProgramCard key={program.title} {...program} variant="vikram-ref" />)}</div>
         </div>
         <article className="soft-wave p-6">
-          <h3 className="text-2xl font-semibold text-[#151515]">Outcomes Matrix</h3>
+          <h3 className="text-2xl font-semibold text-[#ffffff]">Outcomes Matrix</h3>
           <div className="mt-5 space-y-3">
             {["Reading confidence and comprehension", "Numeracy with concept application", "Classroom communication and participation", "Routine, discipline, and responsibility"].map((item) => (
-              <p key={item} className="rounded-lg border border-[#0f6877]/12 bg-white p-3 text-sm font-semibold text-[#5d5a54]">{item}</p>
+              <p key={item} className="rounded-lg border border-[#0f6877]/12 bg-white p-3 text-sm font-semibold text-[#000000]">{item}</p>
             ))}
           </div>
         </article>

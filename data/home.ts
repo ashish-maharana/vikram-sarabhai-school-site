@@ -16,18 +16,18 @@ import { placeholderAssets } from "@/data/placeholders";
 // - Replace placeholder contacts with official admissions details.
 
 export const homeHero: HeroContent = {
-  eyebrow: "Primary-Focused Learning in Bardoli",
-  title: "Nurturing Curious Minds at Vikram Sarabhai School",
+  eyebrow: "Inspired by Dr. Vikram Sarabhai",
+  title: "Scientific Thinking for Every Young Learner",
   description:
-    "A child-friendly school environment where foundational academics, values, confidence, and future skills grow together.",
-  imageSrc: placeholderAssets.hero,
-  imageAlt: "Campus learning moments at Vikram Sarabhai School",
+    "A child-friendly school environment where foundational academics, values, confidence, and future skills grow together with curiosity-led learning.",
+  imageSrc: "https://www.nrsc.gov.in/nrscnew/assets/img/leaders/VikramSarabhai_PNG.png",
+  imageAlt: "Dr. Vikram Sarabhai portrait",
   primaryCta: { label: "Admissions Open", href: "/admissions" },
   secondaryCta: { label: "Visit School", href: "/contact" },
 };
 
 export const imageSlots = {
-  learningSection: placeholderAssets.classroom,
+  learningSection: "https://www.nrsc.gov.in/nrscnew/assets/img/leaders/VikramSarabhai_PNG.png",
   principalSection: placeholderAssets.campus,
   coCurricularSection: placeholderAssets.activity,
   curriculum: {
