@@ -1,5 +1,5 @@
 export const placeholderAssets = {
-  logo: "/images/common/vikram-badge.svg",
+  logo: "/images/common/vvs-logo.png",
   hero:
     "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=80",
   classroom:

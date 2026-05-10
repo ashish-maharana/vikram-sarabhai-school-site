@@ -22,8 +22,8 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <section>
           <div className="flex items-center gap-3">
-            <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={54} height={54} className="rounded-2xl bg-white" />
-            <h2 className="text-xl font-extrabold leading-tight text-[#151515]">{site.name}</h2>
+            <Image src={placeholderAssets.logo} alt={`${site.name} logo placeholder`} width={100} height={100} className="rounded-full object-cover" />
+            <h2 className="text-2xl font-extrabold leading-tight text-[#f36b2a]">{site.name}</h2>
           </div>
           <p className="mt-4 text-sm font-semibold leading-7 text-[#5d5a54]">{site.address}</p>
           <p className="mt-2 text-sm font-semibold text-[#5d5a54]">Email: {site.email}</p>
